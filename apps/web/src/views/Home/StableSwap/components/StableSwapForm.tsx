@@ -233,6 +233,7 @@ export default function StableSwapForm() {
             value={formattedAmounts[Field.INPUT]}
             showMaxButton
             maxAmount={maxAmountInput}
+            swapfromorto = "Swap From"
             showQuickInputButton
             currency={currencies[Field.INPUT]}
             onUserInput={handleTypeInput}
@@ -272,6 +273,7 @@ export default function StableSwapForm() {
             onUserInput={handleTypeOutput}
             label={independentField === Field.INPUT && trade ? t('To (estimated)') : t('To')}
             showMaxButton={false}
+            swapfromorto = "Swap To"
             currency={currencies[Field.OUTPUT]}
             onCurrencySelect={handleOutputSelect}
             otherCurrency={currencies[Field.INPUT]}

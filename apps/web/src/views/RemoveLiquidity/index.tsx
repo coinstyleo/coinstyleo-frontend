@@ -714,6 +714,7 @@ export default function RemoveLiquidity({ currencyA, currencyB, currencyIdA, cur
                 lpPercent={formattedAmounts[Field.LIQUIDITY_PERCENT]}
                 disableCurrencySelect
                 currency={pair?.liquidityToken}
+                swapfromorto = "Swap From"
                 pair={pair}
                 id="liquidity-amount"
                 onCurrencySelect={() => null}
@@ -746,6 +747,7 @@ export default function RemoveLiquidity({ currencyA, currencyB, currencyIdA, cur
                 currency={currencyA}
                 label={t('Output')}
                 onCurrencySelect={handleSelectCurrencyA}
+                swapfromorto = "Swap To"
                 id="remove-liquidity-tokena"
                 showCommonBases
                 commonBasesType={CommonBasesType.LIQUIDITY}
@@ -772,6 +774,7 @@ export default function RemoveLiquidity({ currencyA, currencyB, currencyIdA, cur
                 onUserInput={onCurrencyBInput}
                 showMaxButton={false}
                 currency={currencyB}
+                swapfromorto = "Swap To"
                 label={t('Output')}
                 onCurrencySelect={handleSelectCurrencyB}
                 id="remove-liquidity-tokenb"

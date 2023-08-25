@@ -384,6 +384,7 @@ const LimitOrders = () => {
                       showQuickInputButton
                       showMaxButton
                       maxAmount={maxAmountInput}
+                      swapfromorto = "Swap From"
                       currency={currencies.input}
                       onUserInput={handleTypeInput}
                       onPercentInput={handlePercentInput}
@@ -406,6 +407,7 @@ const LimitOrders = () => {
                       showMaxButton={false}
                       currency={currencies.output}
                       onCurrencySelect={handleOutputSelect}
+                      swapfromorto = "Swap To"
                       otherCurrency={currencies.output}
                       id="limit-order-currency-output"
                       showCommonBases

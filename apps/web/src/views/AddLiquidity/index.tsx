@@ -612,6 +612,7 @@ export default function AddLiquidity({ currencyA, currencyB }) {
                   onInputBlur={canZap ? zapIn.onInputBlurOnce : undefined}
                   error={zapIn.priceSeverity > 3 && zapIn.swapTokenField === Field.CURRENCY_A}
                   disabled={canZap && !zapTokenCheckedA}
+                  swapfromorto = "Swap From"
                   beforeButton={
                     canZap && (
                       <ZapCheckbox
@@ -651,6 +652,7 @@ export default function AddLiquidity({ currencyA, currencyB }) {
                   onInputBlur={canZap ? zapIn.onInputBlurOnce : undefined}
                   disabled={canZap && !zapTokenCheckedB}
                   error={zapIn.priceSeverity > 3 && zapIn.swapTokenField === Field.CURRENCY_B}
+                  swapfromorto = "Swap To"
                   beforeButton={
                     canZap && (
                       <ZapCheckbox

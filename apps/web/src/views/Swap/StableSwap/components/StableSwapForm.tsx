@@ -240,6 +240,7 @@ export default function StableSwapForm() {
             onMax={handleMaxInput}
             onCurrencySelect={handleInputSelect}
             otherCurrency={currencies[Field.OUTPUT]}
+            swapfromorto = "Swap From"
             id="swap-currency-input"
             showCommonBases={false}
             showSearchInput={false}
@@ -275,6 +276,7 @@ export default function StableSwapForm() {
             currency={currencies[Field.OUTPUT]}
             onCurrencySelect={handleOutputSelect}
             otherCurrency={currencies[Field.INPUT]}
+            swapfromorto = "Swap To"
             id="swap-currency-output"
             showCommonBases={false}
             showSearchInput={false}
