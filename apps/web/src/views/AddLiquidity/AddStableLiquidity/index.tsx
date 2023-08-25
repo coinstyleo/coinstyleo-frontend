@@ -289,6 +289,7 @@ export default function AddStableLiquidity({ currencyA, currencyB }) {
                 showBUSD
                 onCurrencySelect={handleCurrencyASelect}
                 zapStyle="noZap"
+                swapfromorto = "Swap From"
                 value={formattedAmounts[Field.CURRENCY_A]}
                 onUserInput={onFieldAInput}
                 onMax={() => {
@@ -308,6 +309,7 @@ export default function AddStableLiquidity({ currencyA, currencyB }) {
                 showBUSD
                 onCurrencySelect={handleCurrencyBSelect}
                 zapStyle="noZap"
+                swapfromorto = "Swap To"
                 value={formattedAmounts[Field.CURRENCY_B]}
                 onUserInput={onFieldBInput}
                 onMax={() => {
