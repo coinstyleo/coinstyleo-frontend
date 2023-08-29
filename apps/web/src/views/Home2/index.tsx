@@ -8,21 +8,19 @@ import { useTranslation } from '@pancakeswap/localization'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { ChainId } from '@pancakeswap/sdk'
 import Hero from './components/Hero'
-import { swapSectionData, earnSectionData, cakeSectionData, rateSectionData } from './components/SalesSection/data'
+import { swapSectionData, earnSectionData, cakeSectionData } from './components/SalesSection/data'
 import MetricsSection from './components/MetricsSection'
 import SalesSection from './components/SalesSection'
 import WinSection from './components/WinSection'
-// import FarmsPoolsRow from './components/FarmsPoolsRow'
+import FarmsPoolsRow from './components/FarmsPoolsRow'
 import Footer from './components/Footer'
 import CakeDataRow from './components/CakeDataRow'
 import { WedgeTopLeft, InnerWedgeWrapper, OuterWedgeWrapper, WedgeTopRight } from './components/WedgeSvgs'
 import UserBanner from './components/UserBanner'
-
-// import MultipleBanner from './components/Banners/MultipleBanner'
+import MultipleBanner from './components/Banners/MultipleBanner'
 
 const StyledHeroSection = styled(PageSection)`
   padding-top: 16px;
-  margin-top:-20px;
 
   ${({ theme }) => theme.mediaQueries.md} {
     padding-top: 48px;
@@ -56,16 +54,16 @@ const Home: React.FC<React.PropsWithChildren> = () => {
 
   return (
     <>
-      <PageMeta  />
+      <PageMeta />
       <style jsx global>{`
         #home-1 .page-bg {
-          background-image: url("/images/home/images/slider.png");
+          background: linear-gradient(139.73deg, #e6fdff 0%, #f3efff 100%);
         }
         [data-theme='dark'] #home-1 .page-bg {
-          background-image: url("/images/home/images/slider.png");
+          background: radial-gradient(103.12% 50% at 50% 50%, #21193a 0%, #191326 100%);
         }
         #home-2 .page-bg {
-          background: linear-gradient(180deg, #09070c 22%, #201335 100%);
+          background: linear-gradient(180deg, #ffffff 22%, #d7caec 100%);
         }
         [data-theme='dark'] #home-2 .page-bg {
           background: linear-gradient(180deg, #09070c 22%, #201335 100%);
@@ -76,43 +74,8 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         [data-theme='dark'] #home-3 .page-bg {
           background: linear-gradient(180deg, #0b4576 0%, #091115 100%);
         }
-        #home-4 {
-          background:linear-gradient(83.55deg, #3D15A8 14.95%, #A93EEB 84.15%);
-        }
-        #home-4 ::before {
-          opacity: 0.1;
-          content: "";
-          height: 100%;
-          width: 100%;
-          background-image: url("/images/home/images/registration-bg.png");
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          right: 0px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: top center;
-        }
-        
         #home-4 .inner-wedge svg {
           fill: #d8cbed;
-        }
-        #home-5 {
-          background-color: #10102D !important;
-        }
-        #home-5 ::before {
-          opacity: 0.1;
-          content: "";
-          height: 100%;
-          width: 100%;
-          background-image: url("/images/home/images/earn-bg.png");
-          position: absolute;
-          top: 0px;
-          left: 0px;
-          right: 0px;
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-position: top center;
         }
         [data-theme='dark'] #home-4 .inner-wedge svg {
           fill: #201335;
@@ -131,7 +94,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
             <UserBanner />
           </UserBannerWrapper>
         )}
-        {/* <MultipleBanner /> */}
+        <MultipleBanner />
         <Hero />
       </StyledHeroSection>
       <PageSection
@@ -146,6 +109,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
+        background={theme.colors.background}
         containerProps={{
           id: 'home-4',
         }}
@@ -161,23 +125,20 @@ const Home: React.FC<React.PropsWithChildren> = () => {
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
-        // background={theme.colors.gradientCardHeader}
+        background={theme.colors.gradientCardHeader}
         index={2}
         hasCurvedDivider={false}
-        containerProps={{
-          id: 'home-5',
-        }}
       >
-        {/* <OuterWedgeWrapper>
+        <OuterWedgeWrapper>
           <InnerWedgeWrapper width="150%" top>
             <WedgeTopRight />
           </InnerWedgeWrapper>
-        </OuterWedgeWrapper> */}
+        </OuterWedgeWrapper>
         <SalesSection {...earnSectionData(t)} />
         {/* TODO: until we are enable fetch multi-chain farms */}
-        {/* {chainId === ChainId.BSC && <FarmsPoolsRow />} */}
+        {chainId === ChainId.BSC && <FarmsPoolsRow />}
       </PageSection>
-      {/* <PageSection
+      <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         containerProps={{
           id: 'home-3',
@@ -186,21 +147,6 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         hasCurvedDivider={false}
       >
         <WinSection />
-      </PageSection> */}
-      <PageSection
-        innerProps={{ style: HomeSectionContainerStyles }}
-        containerProps={{
-          id: 'home-4',
-        }}
-        index={2}
-        hasCurvedDivider={false}
-      >
-        {/* <OuterWedgeWrapper>
-          <InnerWedgeWrapper top>
-            <WedgeTopLeft />
-          </InnerWedgeWrapper>
-        </OuterWedgeWrapper> */}
-        <SalesSection {...rateSectionData(t)} />
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
@@ -211,14 +157,14 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         <SalesSection {...cakeSectionData(t)} />
         <CakeDataRow />
       </PageSection>
-      {/* <PageSection
+      <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background="linear-gradient(180deg, #7645D9 0%, #5121B1 100%)"
         index={2}
         hasCurvedDivider={false}
       >
         <Footer />
-      </PageSection> */}
+      </PageSection>
     </>
   )
 }

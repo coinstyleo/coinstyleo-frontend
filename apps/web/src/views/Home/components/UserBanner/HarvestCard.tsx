@@ -22,7 +22,7 @@ import styled from 'styled-components'
 import { harvestFarm } from 'utils/calls'
 import { getMasterChefAddress } from 'utils/addressHelpers'
 import { BOOSTED_FARM_GAS_LIMIT } from 'config'
-import useFarmsWithBalance from 'views/Home/old/hooks/useFarmsWithBalance'
+import useFarmsWithBalance from 'views/Home/hooks/useFarmsWithBalance'
 import { getEarningsText } from './EarningsText'
 
 const StyledCard = styled(Card)`
