@@ -72,7 +72,7 @@ export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
     appName: 'HCF Swap',
-    appLogoUrl: 'https://trade.hcfpro.io/logo.png',
+    appLogoUrl: 'https://hcfswap.network/logo.png',
   },
 })
 

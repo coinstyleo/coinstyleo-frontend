@@ -9,7 +9,7 @@ const tokens = {
       97: "",
     },
     decimals: 18,
-    projectLink: "http://trade.hcfpro.io/",
+    projectLink: "http://hcfswap.network/",
   },
   cake: {
     symbol: "CAKE",

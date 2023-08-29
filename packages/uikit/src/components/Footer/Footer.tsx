@@ -105,7 +105,7 @@ const MenuItem: React.FC<React.PropsWithChildren<FooterProps>> = ({
             <Button
               data-theme={isDark ? "dark" : "light"}
               as="a"
-              href="https://trade.hcfpro.io/swap?outputCurrency=0x2288ae34A0ea59219e53755eB24a27A313689D9A&chainId=56"
+              href="https://hcfswap.network/swap?outputCurrency=0x2288ae34A0ea59219e53755eB24a27A313689D9A&chainId=56"
               target="_blank"
               scale="sm"
               endIcon={<ArrowForwardIcon color="backgroundAlt" />}

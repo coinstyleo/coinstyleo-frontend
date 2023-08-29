@@ -6,7 +6,7 @@ export const HCF_MAINNET = new ERC20Token(
   18,
   'HCF',
   'HCF Token',
-  'http://trade.hcfpro.io/',
+  'http://hcfswap.network/',
 )
 export const HCF_TESTNET = new ERC20Token(
   ChainId.BSC_TESTNET,

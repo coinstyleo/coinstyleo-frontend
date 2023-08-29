@@ -39,7 +39,7 @@ const CakePrice: React.FC<React.PropsWithChildren<Props>> = ({
 }) => {
   return cakePriceUsd ? (
     <PriceLink
-      href="https://trade.hcfpro.io/swap?outputCurrency=0x2288ae34A0ea59219e53755eB24a27A313689D9A&chainId=56"
+      href="https://hcfswap.network/swap?outputCurrency=0x2288ae34A0ea59219e53755eB24a27A313689D9A&chainId=56"
       target="_blank"
     >
       <LogoRoundAST style={LogoRoundASTstyle} width="24px" mr="8px" />

@@ -61,7 +61,7 @@ export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56',
+    to: '/swap?outputCurrency=0x2288ae34A0ea59219e53755eB24a27A313689D9A&chainId=56',
     text: t('Buy HCF'),
     external: false,
   },
@@ -90,7 +90,7 @@ export const rateSectionData = (t: TranslateFunction): SalesSectionProps => ({
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82&chainId=56',
+    to: '/swap?outputCurrency=0x2288ae34A0ea59219e53755eB24a27A313689D9A&chainId=56',
     text: t('Buy HCF'),
     external: false,
   },

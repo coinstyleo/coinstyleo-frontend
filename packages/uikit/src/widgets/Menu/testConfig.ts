@@ -162,7 +162,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://trade.hcfpro.io",
+    href: "https://hcfswap.network",
     label: "Link",
   },
   {

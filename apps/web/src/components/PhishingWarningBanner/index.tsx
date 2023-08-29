@@ -39,7 +39,7 @@ const SpeechBubble = styled.div`
   }
 `
 
-const domain = 'https://trade.hcfpro.io'
+const domain = 'https://www.hcfswap.network'
 
 const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()
@@ -47,7 +47,7 @@ const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
   const { isMobile, isMd } = useMatchBreakpoints()
   const warningTextAsParts = useMemo(() => {
     const warningText = t("please make sure you're visiting %domain% - check the URL carefully.", { domain })
-    return warningText.split(/(https:\/\/trade.hcfpro.io)/g)
+    return warningText.split(/(https:\/\/www.hcfswap.network)/g)
   }, [t])
   const warningTextComponent = (
     <>

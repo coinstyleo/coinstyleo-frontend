@@ -34,10 +34,10 @@ class MyDocument extends Document {
       <Html translate="no">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link rel="preconnect" href="https://tokens.trade.hcfpro.io" />
+          <link rel="preconnect" href="https://tokens.hcfswap.network" />
           <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&amp;display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="https://trade.hcfpro.io/favicon.ico" />
-          <link rel="apple-touch-icon" href="https://trade.hcfpro.io/logo.png" />
+          <link rel="shortcut icon" href="https://hcfswap.network/favicon.ico" />
+          <link rel="apple-touch-icon" href="https://hcfswap.network/logo.png" />
         </Head>
         <body>
           <Main />
