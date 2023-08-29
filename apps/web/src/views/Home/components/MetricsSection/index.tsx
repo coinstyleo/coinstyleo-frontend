@@ -1,15 +1,17 @@
-import { Heading, Flex, Text, Skeleton, ChartIcon, CommunityIcon, SwapIcon, darkColors, Logo } from '@pancakeswap/uikit'
+import { Heading, Flex, Text, Skeleton, /* ChartIcon, CommunityIcon, SwapIcon, Logo  */ darkColors } from '@pancakeswap/uikit'
 import { useTranslation } from '@pancakeswap/localization'
 import useTheme from 'hooks/useTheme'
 import { formatLocalisedCompactNumber } from '@pancakeswap/utils/formatBalance'
 import useSWRImmutable from 'swr/immutable'
+import Image from 'next/legacy/image'
 import IconCard, { IconCardData } from '../IconCard'
 import StatCardContent from './StatCardContent'
 import { LogoWithTextIcon } from "../../../../../../../packages/uikit/src/components/Svg";
 import usersicon from '../../../../../public/images/home/images/usersicon.png'
 import tradesicon from '../../../../../public/images/home/images/tradesicon.png'
 import stakedicon from '../../../../../public/images/home/images/stakedicon.png'
-import Image from 'next/legacy/image'
+
+
 const Stats = () => {
   const { t } = useTranslation()
   const { theme } = useTheme()
