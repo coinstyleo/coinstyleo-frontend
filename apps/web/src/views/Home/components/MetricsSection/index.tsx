@@ -88,7 +88,7 @@ const Stats = () => {
         </Flex>
         <Flex
           flexDirection="column"
-          alignItems={'center'}
+          alignItems='center'
           flex="1"
           ml={[null, null, null, '64px']}
           mr={[null, null, null, '64px']}
