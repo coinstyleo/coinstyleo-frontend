@@ -17,7 +17,7 @@ If you want to contribute, please refer to the [contributing guidelines](./CONTR
 
 > Install dependencies using **yarn**
 
-## `apps/web`
+## `apps/web `
 <details>
 <summary>
 How to start
