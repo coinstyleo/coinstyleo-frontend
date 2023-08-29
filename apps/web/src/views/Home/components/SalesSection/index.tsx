@@ -1,7 +1,6 @@
 import { Flex, Text, Button, Link, NextLinkFromReactRouter as RouterLink } from '@pancakeswap/uikit'
-import ColoredWordHeading from '../ColoredWordHeading'
-
 import Image, { ImageProps } from 'next/legacy/image'
+import ColoredWordHeading from '../ColoredWordHeading'
 
 const borderstyle = {
   border:"2px solid #fff",
@@ -24,7 +23,7 @@ export interface SalesSectionProps {
 }
 
 const SalesSection: React.FC<React.PropsWithChildren<SalesSectionProps>> = (props) => {
-  const { headingText, bodyText, reverse, primaryButton, secondaryButton, images } = props
+  const { headingText, bodyText, primaryButton, images } = props
 
   return (
     
