@@ -1,8 +1,8 @@
-# 🥞 HCF Swap Frontend
+# 🥞 RICH Swap Frontend
 
 <p align="center">
-  <a href="https://hcfswap.vercel.app/">
-      <img src="https://hcfswap.vercel.app/logo.png" height="128">
+  <a href="https://richswap.finance/">
+      <img src="https://richswap.finance/logo.png" height="128">
   </a>
 </p>
 

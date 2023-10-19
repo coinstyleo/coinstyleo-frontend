@@ -9,10 +9,10 @@ const Container = styled(Flex)`
   height: 100%;
   padding: 12px;
   align-items: center;
-  background:  linear-gradient(rgb(169 62 235) 0%,rgb(61 21 168) 100%);
+  background:  linear-gradient(rgb(86 214 226) 0%,rgb(6 83 176) 100%);
   ${({ theme }) => theme.mediaQueries.md} {
     padding: 0px;
-    background: linear-gradient(rgb(169 62 235) 0%,rgb(61 21 168) 100%);
+    background: linear-gradient(rgb(86 214 226) 0%,rgb(6 83 176) 100%);
   }
 `
 
@@ -39,7 +39,7 @@ const SpeechBubble = styled.div`
   }
 `
 
-const domain = 'https://www.hcfswap.network'
+const domain = 'https://www.richswap.finance'
 
 const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()
@@ -47,7 +47,7 @@ const PhishingWarningBanner: React.FC<React.PropsWithChildren> = () => {
   const { isMobile, isMd } = useMatchBreakpoints()
   const warningTextAsParts = useMemo(() => {
     const warningText = t("please make sure you're visiting %domain% - check the URL carefully.", { domain })
-    return warningText.split(/(https:\/\/www.hcfswap.network)/g)
+    return warningText.split(/(https:\/\/www.richswap.finance)/g)
   }, [t])
   const warningTextComponent = (
     <>

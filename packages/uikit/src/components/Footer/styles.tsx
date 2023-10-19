@@ -5,7 +5,7 @@ import SocialLinks from "./Components/SocialLinks";
 
 export const StyledFooter = styled(Flex)`
   background: ${darkColors.footerbackground};
-  background-image: url(/images/footer-bg.png);
+  /* background-image: url(/images/footer-bg.png); */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;

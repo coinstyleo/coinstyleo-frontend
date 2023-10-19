@@ -1,14 +1,14 @@
 import { ChainId, ERC20Token } from '@pancakeswap/sdk'
 
-export const HCF_MAINNET = new ERC20Token(
+export const RICH_MAINNET = new ERC20Token(
   ChainId.BSC,
-  '0x2288ae34A0ea59219e53755eB24a27A313689D9A',
+  '0x88e7F1AC8258a355Dfe71d0Cb740057394144d94',
   18,
-  'HCF',
-  'HCF Token',
-  'http://hcfswap.network/',
+  'RICH',
+  'RICH Token',
+  'http://richswap.finance/',
 )
-export const HCF_TESTNET = new ERC20Token(
+export const RICH_TESTNET = new ERC20Token(
   ChainId.BSC_TESTNET,
   '0xFa60D973F7642B748046464e165A65B7323b0DEE',
   18,
@@ -147,9 +147,9 @@ export const BUSD: Record<ChainId, ERC20Token> = {
   [ChainId.BSC_TESTNET]: BUSD_TESTNET,
 }
 
-export const HCF = {
-  [ChainId.BSC]: HCF_MAINNET,
-  [ChainId.BSC_TESTNET]: HCF_TESTNET,
+export const RICH = {
+  [ChainId.BSC]: RICH_MAINNET,
+  [ChainId.BSC_TESTNET]: RICH_TESTNET,
 }
 
 export const CAKE = {

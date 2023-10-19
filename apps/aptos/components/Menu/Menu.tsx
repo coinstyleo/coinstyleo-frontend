@@ -160,7 +160,7 @@ export const Menu = ({ children }: { children: ReactNode }) => {
       subLinks={activeMenuItem?.hideSubNav || activeSubMenuItem?.hideSubNav ? [] : activeMenuItem?.items}
       activeSubItem={activeSubMenuItem?.href}
       toggleTheme={toggleTheme}
-      buyCakeLabel={t('Buy HCF')}
+      buyCakeLabel={t('Buy RICH')}
     >
       {children}
     </UIMenu>

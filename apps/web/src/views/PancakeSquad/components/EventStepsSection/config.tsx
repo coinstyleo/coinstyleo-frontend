@@ -56,11 +56,11 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://hcfswap.network/swap?outputCurrency=0x2288ae34A0ea59219e53755eB24a27A313689D9A&chainId=56"
+            href="https://richswap.finance/swap?outputCurrency=0x88e7F1AC8258a355Dfe71d0Cb740057394144d94&chainId=56"
             target="_blank"
             width="100%"
           >
-            {t('Buy HCF')}
+            {t('Buy Rich')}
           </Button>
         </>
       ),

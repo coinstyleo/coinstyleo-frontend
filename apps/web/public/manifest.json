@@ -1,8 +1,8 @@
 {
-  "short_name": "HCF Swap",
-  "name": "HCF Swap",
-  "description": "Farm HCF with HCF LP Tokens",
-  "homepage_url": "https://hcfswap.network",
+  "short_name": "Rich Swap",
+  "name": "Rich Swap",
+  "description": "Farm Rich with Rich LP Tokens",
+  "homepage_url": "https://richswap.finance",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

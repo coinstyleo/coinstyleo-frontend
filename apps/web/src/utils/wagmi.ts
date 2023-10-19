@@ -71,8 +71,8 @@ export const injectedConnector = new InjectedConnector({
 export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
-    appName: 'HCF Swap',
-    appLogoUrl: 'https://hcfswap.network/logo.png',
+    appName: 'Rich Swap',
+    appLogoUrl: 'https://richswap.finance/logo.png',
   },
 })
 

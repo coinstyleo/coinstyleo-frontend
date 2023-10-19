@@ -2,14 +2,14 @@
  * @see https://github.com/pancakeswap/pancake-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
-  hcf: {
-    symbol: "HCF",
+  rich: {
+    symbol: "RICH",
     address: {
-      56: "0x2288ae34A0ea59219e53755eB24a27A313689D9A",
+      56: "0x88e7F1AC8258a355Dfe71d0Cb740057394144d94",
       97: "",
     },
     decimals: 18,
-    projectLink: "http://hcfswap.network/",
+    projectLink: "http://richswap.finance/",
   },
   cake: {
     symbol: "CAKE",

@@ -77,7 +77,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
           background: linear-gradient(180deg, #0b4576 0%, #091115 100%);
         }
         #home-4 {
-          background:linear-gradient(83.55deg, #3D15A8 14.95%, #A93EEB 84.15%);
+          background:linear-gradient(83.55deg, #0653B0 14.95%, #56D6E2 84.15%);
         }
         #home-4 ::before {
           opacity: 0.1;

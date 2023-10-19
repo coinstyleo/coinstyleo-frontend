@@ -51,12 +51,12 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
     },
     {
-      "name": "HCF Token",
-      "symbol": "HCF",
-      "address": "0x2288ae34A0ea59219e53755eB24a27A313689D9A",
+      "name": "Rich Token",
+      "symbol": "Rich",
+      "address": "0x88e7F1AC8258a355Dfe71d0Cb740057394144d94",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/0x2288ae34A0ea59219e53755eB24a27A313689D9A.png"
+      "logoURI": "/0x88e7F1AC8258a355Dfe71d0Cb740057394144d94.png"
     },
     {
       "name": "PancakeSwap Token",

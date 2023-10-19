@@ -162,7 +162,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://hcfswap.network",
+    href: "https://richswap.finance",
     label: "Link",
   },
   {
