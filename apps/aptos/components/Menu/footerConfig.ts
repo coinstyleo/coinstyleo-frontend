@@ -23,8 +23,8 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
         href: '#',
       },
       {
-        label: t('Litepaper'),
-        href: '#',
+        label: t('White Paper'),
+        href: 'https://richtoken.biz/whitepaper.php',
       },
     ],
   },
