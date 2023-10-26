@@ -133,7 +133,7 @@ const CakeDataRow = () => {
       <Flex flexDirection="column" style={{ gridArea: 'a' }}>
         <Text color="textSubtle">{t('Circulating Supply')}</Text>
         {circulatingSupply ? (
-          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={circulatingSupply} />
+          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={5000000} /> //value={circulatingSupply}
         ) : (
           <Skeleton height={24} width={126} my="4px" />
         )}
@@ -141,7 +141,7 @@ const CakeDataRow = () => {
       <StyledColumn noMobileBorder style={{ gridArea: 'b' }}>
         <Text color="textSubtle">{t('Total supply')}</Text>
         {cakeSupply ? (
-          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={cakeSupply} />
+          <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={50000000} /> //value={cakeSupply}
         ) : (
           <>
             <div ref={observerRef} />
@@ -152,7 +152,7 @@ const CakeDataRow = () => {
       <StyledColumn noMobileBorder style={{ gridArea: 'c' }}>
         <Text color="textSubtle">{t('Max Supply')}</Text>
 
-        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={750000000} />
+        <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={50000000} />
       </StyledColumn>
       <StyledColumn noDesktopBorder style={{ gridArea: 'd' }}>
         <Text color="textSubtle">{t('Market cap')}</Text>
