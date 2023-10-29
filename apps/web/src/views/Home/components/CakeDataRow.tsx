@@ -162,15 +162,15 @@ const CakeDataRow = () => {
           <Skeleton height={24} width={126} my="4px" />
         )}
       </StyledColumn>
-      <StyledColumn style={{ gridArea: 'e' }}>
+      {/* <StyledColumn style={{ gridArea: 'e' }}>
         <Text color="textSubtle">{t('Burned to date')}</Text>
         {burnedBalance ? (
           <Balance decimals={0} lineHeight="1.1" fontSize="24px" bold value={burnedBalance} />
         ) : (
           <Skeleton height={24} width={126} my="4px" />
         )}
-      </StyledColumn>
-      <StyledColumn style={{ gridArea: 'f' }}>
+      </StyledColumn> */}
+      <StyledColumn style={{ gridArea: 'e' }}>
         <Text color="textSubtle">{t('Current emissions')}</Text>
 
         <Heading scale="lg">{t('%cakeEmissions%/block', { cakeEmissions: emissionsPerBlock })}</Heading>
