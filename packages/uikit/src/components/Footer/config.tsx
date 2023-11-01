@@ -97,7 +97,7 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "#",
+        href: "https://t.me/richtokenofficial1",
       },
       
     ],
