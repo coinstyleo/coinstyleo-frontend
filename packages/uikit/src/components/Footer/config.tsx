@@ -17,7 +17,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "#",
+        href: "https://richtoken.biz/index.php#contact",
       },
       {
         label: "Blog",
@@ -89,7 +89,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "#",
+    href: "https://twitter.com/RichToken443261",
   },
   {
     label: "Telegram",
@@ -103,14 +103,14 @@ export const socials = [
     ],
   },
   {
-    label: "Reddit",
+    label: "Facebook",
     icon: RedditIcon,
-    href: "#",
+    href: "https://www.facebook.com/richtokenofficial1",
   },
   {
     label: "Instagram",
     icon: InstagramIcon,
-    href: "#",
+    href: "https://www.instagram.com/richtokenofficial1",
   },
   {
     label: "Github",

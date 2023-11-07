@@ -50,7 +50,7 @@ const Stats = () => {
           width={['192px', null, null, '100%']}
           // flex={[null, null, null, '1']}
           mb={['24px', null, null, '0']}
-          display={'contents !important'}
+          display='contents !important'
         >
           <Flex
             flexDirection={['column-reverse', null, null,  'row']}
