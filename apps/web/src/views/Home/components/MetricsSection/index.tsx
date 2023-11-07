@@ -48,7 +48,7 @@ const Stats = () => {
          <Flex
           height={['192px', null, null, '100%']}
           width={['192px', null, null, '100%']}
-          //flex={[null, null, null, '1']}
+          // flex={[null, null, null, '1']}
           mb={['24px', null, null, '0']}
           display={'contents !important'}
         >
