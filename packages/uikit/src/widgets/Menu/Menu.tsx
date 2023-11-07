@@ -150,10 +150,12 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
             <StyledNav>
               <Flex>
                 <Logo href={homeLink?.href ?? "/"} />
-                <SearchInput onChange={display} placeholder="Search Here"  />
+                <AtomBox display={{ xs: "none", md: "block" }}>
+                  <SearchInput onChange={display} placeholder="Search Here"  />
+                </AtomBox>
                 <AtomBox display={{ xs: "none", md: "block" }}>
                   
-                  <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="24px" />
+                  <MenuItems items={links} activeItem={activeItem} activeSubItem={activeSubItem} ml="10px" />
                 </AtomBox>
               </Flex>
               <Flex alignItems="center" height="100%">
@@ -171,7 +173,9 @@ const Menu: React.FC<React.PropsWithChildren<NavProps>> = ({
                     hideLanguage
                   />
                 </Box> */}
-                <Box color="white" mr={2} >{isDark ? `Dark Mode` : 'Light Mode'} <br/> <b>Activated</b> </Box>
+               <AtomBox display={{ xs: "none", md: "block" }}>
+                 <Box color="white" mr={2} >{isDark ? `Dark Mode` : 'Light Mode'} <br/> <b>Activated</b> </Box>
+                 </AtomBox>
                <SkeletonV2 variant="round" width="56px" height="32px" isDataReady={isMounted}>
                 <ThemeSwitcher isDark={isDark} toggleTheme={toggleTheme} />
               </SkeletonV2>

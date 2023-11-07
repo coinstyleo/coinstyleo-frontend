@@ -78,6 +78,7 @@ const StarsWrapper = styled.div`
   }
 `
 
+
 const starsImage: CompositeImageProps = {
   path: '/images/home/lunar-bunny/',
   attributes: [
@@ -107,6 +108,9 @@ const Hero = () => {
           [data-theme='dark'] .slide-svg-light {
             display: none;
           }
+          .overflow-wrap{
+            overflow-wrap:break-word;
+          }
         `}
       </style>
       <BgWrapper>
@@ -118,12 +122,12 @@ const Hero = () => {
       <Flex
         position="relative"
         flexDirection={['column-reverse', null, null, 'row']}
-        alignItems={['flex-end', null, null, 'center']}
+        alignItems={['normal', null, null, 'center']}
         justifyContent="center"
         mt={[account ? '280px' : '50px', null, 0]}
         id="homepage-hero"
       >
-        <Flex flex="1" flexDirection="column">
+        <Flex flex="1" flexDirection="column" className="overflow-wrap">
           <Heading scale="xxl" color="secondary" mb="24px">
             {t('RICH SWAP DECENTRALIZED CRYPTO EXCHANGE')}
           </Heading>
