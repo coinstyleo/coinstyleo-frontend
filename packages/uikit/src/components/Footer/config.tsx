@@ -94,13 +94,14 @@ export const socials = [
   {
     label: "Telegram",
     icon: TelegramIcon,
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/richtokenofficial1",
-      },
+    href: "https://t.me/richtokenofficial1",
+    // items: [
+    //   {
+    //     label: "English",
+        
+    //   },
       
-    ],
+    // ],
   },
   {
     label: "Facebook",
