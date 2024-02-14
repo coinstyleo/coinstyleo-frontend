@@ -71,8 +71,8 @@ export const injectedConnector = new InjectedConnector({
 export const coinbaseConnector = new CoinbaseWalletConnector({
   chains,
   options: {
-    appName: 'Rich Swap',
-    appLogoUrl: 'https://richswap.finance/logo.png',
+    appName: 'Styleo Dex',
+    appLogoUrl: 'https://www.styleodex.finance/logo.png',
   },
 })
 

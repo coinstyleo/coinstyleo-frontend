@@ -1,8 +1,8 @@
-# 🥞 RICH Swap Frontend
+# 🥞 Styleo Dex Exchange Frontend
 
 <p align="center">
-  <a href="https://richswap.finance/">
-      <img src="https://richswap.finance/logo.png" height="128">
+  <a href="https://www.styleodex.finance/">
+      <img src="https://www.styleodex.finance/logo.png" height="128">
   </a>
 </p>
 

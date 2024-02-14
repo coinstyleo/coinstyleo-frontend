@@ -18,14 +18,14 @@ export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   [ChainId.GOERLI]: [WNATIVE[ChainId.RINKEBY], USDC[ChainId.RINKEBY], BUSD[ChainId.RINKEBY]],
   [ChainId.BSC]: [
     bscTokens.wbnb,
-    bscTokens.rich,
+    bscTokens.stc,
     bscTokens.busd,
     bscTokens.usdt,
     bscTokens.btcb,
     bscTokens.eth,
     bscTokens.usdc,
   ],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.stc, bscTestnetTokens.busd],
 }
 
 /**
@@ -53,8 +53,8 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.ETHEREUM]: [USDC[ChainId.ETHEREUM], USDT[ChainId.ETHEREUM], WNATIVE[ChainId.ETHEREUM], WBTC_ETH],
   [ChainId.RINKEBY]: [USDC[ChainId.RINKEBY], WNATIVE[ChainId.RINKEBY], BUSD[ChainId.RINKEBY]],
   [ChainId.GOERLI]: [USDC[ChainId.GOERLI], WNATIVE[ChainId.GOERLI], BUSD[ChainId.GOERLI]],
-  [ChainId.BSC]: [bscTokens.busd, bscTokens.rich, bscTokens.btcb],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.BSC]: [bscTokens.busd, bscTokens.stc, bscTokens.btcb],
+  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.stc, bscTestnetTokens.busd],
 }
 
 // used to construct the list of all pairs we consider by default in the frontend
@@ -62,8 +62,8 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.ETHEREUM]: [USDC[ChainId.ETHEREUM], WNATIVE[ChainId.ETHEREUM], USDT[ChainId.ETHEREUM], WBTC_ETH],
   [ChainId.RINKEBY]: [USDC[ChainId.RINKEBY], WNATIVE[ChainId.RINKEBY], BUSD[ChainId.RINKEBY]],
   [ChainId.GOERLI]: [USDC[ChainId.GOERLI], WNATIVE[ChainId.GOERLI], BUSD[ChainId.GOERLI]],
-  [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt, bscTokens.rich],
-  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.cake, bscTestnetTokens.busd],
+  [ChainId.BSC]: [bscTokens.wbnb, bscTokens.dai, bscTokens.busd, bscTokens.usdt, bscTokens.stc],
+  [ChainId.BSC_TESTNET]: [bscTestnetTokens.wbnb, bscTestnetTokens.stc, bscTestnetTokens.busd],
 }
 
 export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } = {
@@ -73,7 +73,7 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     [WNATIVE[ChainId.ETHEREUM], USDT[ChainId.ETHEREUM]],
   ],
   [ChainId.BSC]: [
-    [bscTokens.rich, bscTokens.wbnb],
+    [bscTokens.stc, bscTokens.wbnb],
     [bscTokens.busd, bscTokens.usdt],
     [bscTokens.dai, bscTokens.usdt],
   ],
@@ -107,7 +107,7 @@ export const INPUT_FRACTION_AFTER_FEE = ONE_HUNDRED_PERCENT.subtract(BASE_FEE)
 // BNB
 export const DEFAULT_INPUT_CURRENCY = 'BNB'
 // CAKE
-export const DEFAULT_OUTPUT_CURRENCY = '0x88e7F1AC8258a355Dfe71d0Cb740057394144d94'
+export const DEFAULT_OUTPUT_CURRENCY = '0xd9361d306A9e9A43f5883a064038220EF0D46fB0'
 
 // Handler string is passed to Gelato to use PCS router
 export const GELATO_HANDLER = 'pancakeswap'

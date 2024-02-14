@@ -162,7 +162,7 @@ export const userMenulinks: DropdownMenuItems[] = [
   },
   {
     type: DropdownMenuItemType.EXTERNAL_LINK,
-    href: "https://richswap.finance",
+    href: "https://www.styleodex.finance",
     label: "Link",
   },
   {

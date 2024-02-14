@@ -1,8 +1,8 @@
 {
-  "short_name": "Rich Swap",
-  "name": "Rich Swap",
-  "description": "Farm Rich with Rich LP Tokens",
-  "homepage_url": "https://richswap.finance",
+  "short_name": "Styleo Dex",
+  "name": "Styleo Dex",
+  "description": "Farm Styleo Dex with Styleo LP Tokens",
+  "homepage_url": "https://www.styleodex.finance",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#1FC7D4",

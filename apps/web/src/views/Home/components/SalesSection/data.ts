@@ -31,7 +31,7 @@ export const swapSectionData = (t: TranslateFunction): SalesSectionProps => ({
 
 export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('EARN PASSIVE INCOME WITH CRYPTO.'),
-  bodyText: t('Rich Swap makes it easy to make your crypto work for you.'),
+  bodyText: t('Styleo Dex makes it easy to make your crypto work for you.'),
   reverse: true,
   primaryButton: {
     to: '/farms',
@@ -57,12 +57,12 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
   headingText: t('CRYPTO MAKES OUR WORLD GO ROUND.'),
   bodyText: t(
-    'Rich token is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'Styleo Coin is at the heart of the PancakeSwap ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x88e7F1AC8258a355Dfe71d0Cb740057394144d94&chainId=56',
-    text: t('Buy Rich'),
+    to: '/swap?outputCurrency=0xd9361d306A9e9A43f5883a064038220EF0D46fB0&chainId=56',
+    text: t('Buy STC'),
     external: false,
   },
   secondaryButton: {
@@ -90,8 +90,8 @@ export const rateSectionData = (t: TranslateFunction): SalesSectionProps => ({
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x88e7F1AC8258a355Dfe71d0Cb740057394144d94&chainId=56',
-    text: t('Buy Rich'),
+    to: '/swap?outputCurrency=0xd9361d306A9e9A43f5883a064038220EF0D46fB0&chainId=56',
+    text: t('Buy STC'),
     external: false,
   },
   secondaryButton: {

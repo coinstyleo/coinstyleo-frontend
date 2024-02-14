@@ -2,15 +2,6 @@
  * @see https://github.com/pancakeswap/pancake-frontend/blob/develop/src/config/constants/tokens.ts
  */
 const tokens = {
-  rich: {
-    symbol: "RICH",
-    address: {
-      56: "0x88e7F1AC8258a355Dfe71d0Cb740057394144d94",
-      97: "",
-    },
-    decimals: 18,
-    projectLink: "http://richswap.finance/",
-  },
   cake: {
     symbol: "CAKE",
     address: {
@@ -19,6 +10,15 @@ const tokens = {
     },
     decimals: 18,
     projectLink: "https://pancakeswap.finance/",
+  },
+  stc: {
+    symbol: "STC",
+    address: {
+      56: "0xd9361d306A9e9A43f5883a064038220EF0D46fB0",
+      97: "0xFa60D973F7642B748046464e165A65B7323b0DEE",
+    },
+    decimals: 18,
+    projectLink: "http://www.styleodex.finance",
   },
   txl: {
     symbol: "TXL",

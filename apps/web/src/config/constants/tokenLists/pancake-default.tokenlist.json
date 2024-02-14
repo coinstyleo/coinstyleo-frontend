@@ -51,12 +51,12 @@
       "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png"
     },
     {
-      "name": "Rich Token",
-      "symbol": "Rich",
-      "address": "0x88e7F1AC8258a355Dfe71d0Cb740057394144d94",
+      "name": "Styleo Coin",
+      "symbol": "STC",
+      "address": "0xd9361d306A9e9A43f5883a064038220EF0D46fB0",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "/0x88e7F1AC8258a355Dfe71d0Cb740057394144d94.png"
+      "logoURI": "https://pancakeswap.finance/images/tokens/0xd9361d306A9e9A43f5883a064038220EF0D46fB0.png"
     },
     {
       "name": "PancakeSwap Token",

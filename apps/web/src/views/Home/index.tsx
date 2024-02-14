@@ -59,10 +59,10 @@ const Home: React.FC<React.PropsWithChildren> = () => {
       <PageMeta  />
       <style jsx global>{`
         #home-1 .page-bg {
-          background-image: url("/images/home/images/slider.png");
+          background-image: linear-gradient(to right, #d9f4ffb8, #ffffff29),url(/images/home/images/slider.png);
         }
         [data-theme='dark'] #home-1 .page-bg {
-          background-image: url("/images/home/images/slider.png");
+          background-image: linear-gradient(to right, #000000d1, #314c5896),url(/images/home/images/slider.png);
         }
         #home-2 .page-bg {
           background: linear-gradient(180deg, #09070c 22%, #201335 100%);

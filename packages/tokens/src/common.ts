@@ -1,21 +1,23 @@
 import { ChainId, ERC20Token } from '@pancakeswap/sdk'
 
-export const RICH_MAINNET = new ERC20Token(
+export const STC_MAINNET = new ERC20Token(
   ChainId.BSC,
-  '0x88e7F1AC8258a355Dfe71d0Cb740057394144d94',
+  '0xd9361d306A9e9A43f5883a064038220EF0D46fB0',
   18,
-  'RICH',
-  'RICH Token',
-  'http://richswap.finance/',
+  'STC',
+  'Styleo Coin',
+  'https://www.styleodex.finance/',
 )
-export const RICH_TESTNET = new ERC20Token(
-  ChainId.BSC_TESTNET,
+
+export const STC_TESTNET = new ERC20Token(
+  ChainId.BSC,
   '0xFa60D973F7642B748046464e165A65B7323b0DEE',
   18,
-  'CAKE',
-  'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'STC',
+  'Styleo Coin',
+  'https://www.styleodex.finance/',
 )
+
 export const CAKE_MAINNET = new ERC20Token(
   ChainId.BSC,
   '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
@@ -147,13 +149,13 @@ export const BUSD: Record<ChainId, ERC20Token> = {
   [ChainId.BSC_TESTNET]: BUSD_TESTNET,
 }
 
-export const RICH = {
-  [ChainId.BSC]: RICH_MAINNET,
-  [ChainId.BSC_TESTNET]: RICH_TESTNET,
-}
-
 export const CAKE = {
   [ChainId.BSC]: CAKE_MAINNET,
+  [ChainId.BSC_TESTNET]: CAKE_TESTNET,
+}
+
+export const STC = {
+  [ChainId.BSC]: STC_MAINNET,
   [ChainId.BSC_TESTNET]: CAKE_TESTNET,
 }
 

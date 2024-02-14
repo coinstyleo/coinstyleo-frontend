@@ -50,17 +50,17 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         hasProfileActivated,
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
-      title: t('Hold CAKE'),
-      bodyText: [t('Each NFT costs CAKE to mint. Remember you also need BNB to cover transaction fees too!')],
+      title: t('Hold STC'),
+      bodyText: [t('Each NFT costs STC to mint. Remember you also need BNB to cover transaction fees too!')],
       buttons: (
         <>
           <Button
             as="a"
-            href="https://richswap.finance/swap?outputCurrency=0x88e7F1AC8258a355Dfe71d0Cb740057394144d94&chainId=56"
+            href="https://www.styleodex.finance/swap?outputCurrency=0xd9361d306A9e9A43f5883a064038220EF0D46fB0&chainId=56"
             target="_blank"
             width="100%"
           >
-            {t('Buy Rich')}
+            {t('Buy STC')}
           </Button>
         </>
       ),

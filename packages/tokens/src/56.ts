@@ -1,5 +1,5 @@
 import { ChainId, Token, WBNB, ERC20Token } from '@pancakeswap/sdk'
-import {RICH_MAINNET, BUSD_BSC, CAKE_MAINNET, USDT_BSC } from './common'
+import { BUSD_BSC, CAKE_MAINNET, STC_MAINNET, USDT_BSC } from './common'
 
 export const bscTokens = {
   wbnb: WBNB[ChainId.BSC],
@@ -12,7 +12,7 @@ export const bscTokens = {
     'BNB',
     'https://www.binance.com/',
   ),
-  rich: RICH_MAINNET,
+  stc: STC_MAINNET,
   cake: CAKE_MAINNET,
   gmi: new ERC20Token(
     ChainId.BSC,

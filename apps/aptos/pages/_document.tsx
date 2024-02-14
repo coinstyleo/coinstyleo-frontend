@@ -34,10 +34,10 @@ class MyDocument extends Document {
       <Html translate="no">
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
-          <link rel="preconnect" href="https://tokens.richswap.finance" />
+          <link rel="preconnect" href="https://tokens.styleodex.finance" />
           <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&amp;display=swap" rel="stylesheet" />
-          <link rel="shortcut icon" href="https://richswap.finance/favicon.ico" />
-          <link rel="apple-touch-icon" href="https://richswap.finance/logo.png" />
+          <link rel="shortcut icon" href="https://www.styleodex.finance/favicon.ico" />
+          <link rel="apple-touch-icon" href="https://www.styleodex.finance/logo.png" />
         </Head>
         <body>
           <Main />
