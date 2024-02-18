@@ -17,7 +17,7 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "#",
+        href: "https://styleocoin.com/index.html ",
       },
       {
         label: "Blog",
@@ -89,49 +89,49 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "#",
+    href: "https://twitter.com/styleocoin",
   },
-  {
-    label: "Telegram",
-    icon: TelegramIcon,
-    href: "#",
-    // items: [
-    //   {
-    //     label: "English",
+  // {
+  //   label: "Telegram",
+  //   icon: TelegramIcon,
+  //   href: "#",
+  //   // items: [
+  //   //   {
+  //   //     label: "English",
         
-    //   },
+  //   //   },
       
-    // ],
-  },
+  //   // ],
+  // },
   {
     label: "Facebook",
     icon: RedditIcon,
-    href: "#",
+    href: "https://www.facebook.com/profile.php?id=61554420863308",
   },
   {
     label: "Instagram",
     icon: InstagramIcon,
-    href: "#",
+    href: "https://www.instagram.com/styleocoin/",
   },
-  {
-    label: "Github",
-    icon: GithubIcon,
-    href: "#",
-  },
-  {
-    label: "Discord",
-    icon: DiscordIcon,
-    href: "#",
-  },
-  {
-    label: "Medium",
-    icon: MediumIcon,
-    href: "#",
-  },
+  // {
+  //   label: "Github",
+  //   icon: GithubIcon,
+  //   href: "#",
+  // },
+  // {
+  //   label: "Discord",
+  //   icon: DiscordIcon,
+  //   href: "#",
+  // },
+  // {
+  //   label: "Medium",
+  //   icon: MediumIcon,
+  //   href: "#",
+  // },
   {
     label: "Youtube",
     icon: YoutubeIcon,
-    href: "#",
+    href: "https://www.youtube.com/@styleocoin/videos",
   },
 ];
 

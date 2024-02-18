@@ -24,7 +24,7 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('White Paper'),
-        href: '#',
+        href: 'https://styleocoin.com/assets/img/STYLEOCOIN-WHITEPAPER.pdf',
       },
     ],
   },

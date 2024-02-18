@@ -7,24 +7,24 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Contact'),
-        href: '#',
+        href: 'https://styleocoin.com/contact.html',
         isHighlighted: true,
       },
       {
         label: t('Brand'),
-        href: '#',
+        href: 'https://styleocoin.com/index.html',
       },
-      {
-        label: t('Blog'),
-        href: '#',
-      },
-      {
-        label: t('Community'),
-        href: '#',
-      },
+      // {
+      //   label: t('Blog'),
+      //   href: '#',
+      // },
+      // {
+      //   label: t('Community'),
+      //   href: '#',
+      // },
       {
         label: t('White Paper'),
-        href: '#',
+        href: 'https://styleocoin.com/assets/img/STYLEOCOIN-WHITEPAPER.pdf',
       },
     ],
   },
@@ -33,15 +33,15 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
     items: [
       {
         label: t('Customer Support'),
-        href: '#',
+        href: 'https://styleocoin.com/contact.html',
       },
-      {
-        label: t('Troubleshooting'),
-        href: '#',
-      },
+      // {
+      //   label: t('Troubleshooting'),
+      //   href: '#',
+      // },
       {
         label: t('Guides'),
-        href: '#',
+        href: 'https://styleocoin.com/index.html',
       },
     ],
   },
@@ -54,20 +54,20 @@ export const footerLinks: (t: ContextApi['t']) => FooterLinkType[] = (t) => [
       },
       {
         label: t('Documentation'),
-        href: '#',
+        href: 'https://styleocoin.com/index.html',
       },
-      {
-        label: t('Bug Bounty'),
-        href: '#',
-      },
-      {
-        label: t('Audits'),
-        href: '#',
-      },
-      {
-        label: t('Careers'),
-        href: '#',
-      },
+      // {
+      //   label: t('Bug Bounty'),
+      //   href: '#',
+      // },
+      // {
+      //   label: t('Audits'),
+      //   href: '#',
+      // },
+      // {
+      //   label: t('Careers'),
+      //   href: '#',
+      // },
     ],
   },
 ]
